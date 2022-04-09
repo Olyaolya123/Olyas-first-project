@@ -14,9 +14,41 @@
   width:228;
   height:32;
   fill:none;
-  background-image:url(/images/logo_place_header.svg);
-}
+  z-index: 3;
+  margin:0;
 
+}
+.logo_place_header{
+  position: absolute;
+  top:30px;
+  left: 64px;
+  
+}
+.header__title{
+  width:730px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  z-index: 2;
+  position:relative;
+  left:64px;
+
+}
+.header__subtitle{
+  width: 338px;
+  position: absolute;
+  bottom:30px;
+  left:64px;
+  margin:0;
+  z-index: 1;
+}
+.header__link{
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  
+}
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
