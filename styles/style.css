@@ -290,7 +290,7 @@ text-decoration: none;
 .footer__column_content_copyight{
   display: flex;
   justify-content: space-between;
-  flex-basis: 770px; 
+  flex-basis: 770px;
  
 
 }
@@ -309,15 +309,21 @@ bottom: 40px;
 margin: 18px 0;
 }
 .footer__column-heading{
-margin:0;
 margin-bottom: 20px;
-text-align: center;
+line-height: 30px;
+font-size: 18px;
+font-weight: bold;
 border:1px solid red;
 }
 .footer__column-links a{
 color: white;
 text-decoration: none;
 margin-bottom: 16px;
+display: inline;
+align-items: center;
+line-height: 30px;
+font-size: 18px;
+font-weight: normal;
 }
 
 .footer__social-icon{
