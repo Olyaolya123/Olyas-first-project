@@ -157,19 +157,20 @@ margin: 0;
 
 }
 .table__text{
-  margin:20px 0 0 0;
+  margin-top: 20px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
 .feynman{
   border:1px solid red;
-  margin:100px 0 0 0;
+  height: 890px;
   display: flex;
-  align-items: center;
   flex-direction: column;
+  background-color: #f2f2f2;
   position: relative;
-}
+  margin-top: 100px;
+  }
 .feynman__title{
 border:1px solid red;
 width: 648px;
@@ -177,25 +178,27 @@ z-index: 3;
 line-height: 1.15;
 font-size: 120px;
 font-weight: bold;
+text-align: center;
+margin: 100px;
 }
 .feyman__subtitle{
 border:1px solid red;
-z-index: 2;
 line-height: 51px;
 font-size: 36px;
 font-weight: normal;
-margin:70px 0 0 0;
+margin-top:0;
+z-index: 2;
 }
 .feyman__link{
 border:1px solid red;
+color: #2f80ed;
 line-height: 51px;
 font-size: 36px;
 font-weight: normal;
 text-decoration: none;
-position: absolute;
+position:absolute;
 top:50%;
-bottom: 50%;
-right: 48px;
+right:48px;
 }
 
 .feyman__feyman-illustration{
@@ -203,9 +206,10 @@ right: 48px;
   width: 867px;
   height: 637px;
   z-index: 1;
-  
-
-
+  position: absolute;
+  left:0;
+  bottom:0;
+  margin: 0;
 }
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
