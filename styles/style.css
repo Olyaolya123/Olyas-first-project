@@ -187,7 +187,7 @@ font-weight: normal;
 margin-top:0;
 z-index: 2;
 }
-.feyman__link{
+.feyman__link a{
 color: #2f80ed;
 line-height: 51px;
 font-size: 36px;
@@ -196,7 +196,7 @@ position:absolute;
 top:50%;
 right:48px;
 margin: 0;
-text-decoration:none;
+text-decoration: none;
 }
 
 .feyman__feyman-illustration{
@@ -207,10 +207,66 @@ text-decoration:none;
   left:0;
   bottom:0;
 }
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
+.kaufman{
+  border:1px solid red;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000000;
+  color:white;
+  
+}
+.section-title_theme_dark{
+  border:1px solid red;
+  margin-top: 90px;
+  margin-bottom: 20px;
+  width: 60%;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold; 
+
+}
+.section-subtitle_theme_dark{
+  border:1px solid red;
+  margin:0;
+  margin-bottom: 80px;
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.table__cell_theme_dark{
+  border:1px solid red;
+  margin-top:0;
+  margin-bottom: 80px;
+  margin-right:auto;
+  margin-left: auto;
   width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+}
+.table__heading_theme_dark{
+  border:1px solid red;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+.table__text_theme_dark{
+  border:1px solid red;
+  margin-top:20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  
+}
+.kayfman__triangle{
+  border:1px solid red;
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  display: flex;
+  top:0;
+  right: -120px;
+  
 }
