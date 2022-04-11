@@ -268,7 +268,6 @@ text-decoration: none;
   z-index: 0;
 }
 .footer{
-  border:1px solid red;
   min-height: 350px;
   background-color: #000000;
   color: white;
@@ -278,7 +277,6 @@ text-decoration: none;
   
 }
 .footer__columns{
-  border:1px solid red;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -291,15 +289,12 @@ text-decoration: none;
   display: flex;
   justify-content: space-between;
   flex-basis: 770px;
- 
-
 }
 .logo_place_footer{
 width: 228px;
 height: 32px;
 }
 .footer__author{
-border:1px solid red;
 margin:0;
 line-height: 25px;
 font-size: 18px;
@@ -308,22 +303,30 @@ position:absolute;
 bottom: 40px;
 margin: 18px 0;
 }
+.footer__column{
+  display: flex;
+  flex-direction: column;
+ 
+}
 .footer__column-heading{
-margin-bottom: 20px;
 line-height: 30px;
 font-size: 18px;
 font-weight: bold;
-border:1px solid red;
+margin: 0;
+margin-bottom: 20px;
 }
-.footer__column-links a{
-color: white;
-text-decoration: none;
+.footer__column-links{
 margin-bottom: 16px;
-display: inline;
-align-items: center;
+margin: 0;
+padding: 0;
+list-style-type: none;
 line-height: 30px;
 font-size: 18px;
 font-weight: normal;
+display: flex;
+flex-direction: column;
+text-decoration: none;
+color:white;
 }
 
 .footer__social-icon{
@@ -331,6 +334,7 @@ color:#1f1f1f;
 width: 16px;
 height: 16px;
 margin-right: 10px;
+margin: 0;
 }
 .footer__column_link{
   color:white;
